@@ -48,15 +48,17 @@ const juanchi = {
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
-| 🔧 **[gmm-haproxy-vscode](https://github.com/JuanTorchia/gmm-haproxy-vscode)** | Extensión de VS Code para HAProxy · Publicada en el Marketplace | TypeScript · VSCode API |
-| 🔐 **[certificate-viewer-open-vscode](https://github.com/JuanTorchia/certificate-viewer-open-vscode)** | Inspector visual de certificados X.509 dentro del editor | TypeScript · ASN.1 |
 | 🧪 **[pq-signing-demo](https://github.com/JuanTorchia/pq-signing-demo)** | Firma post-cuántica en el browser (ML-DSA / SLH-DSA) | WebAssembly · NIST |
 | ⚡ **[nextjs-perf-demo](https://github.com/JuanTorchia/nextjs-perf-demo)** | Comparativa 3s → 300ms con Server Components + ISR | Next.js 16 · RSC |
 | 🤖 **[browser-llm-demo](https://github.com/JuanTorchia/browser-llm-demo)** | LLM corriendo 100% en el browser, sin servidor ni API key | Transformers.js |
 | 📘 **[typescript-patterns](https://github.com/JuanTorchia/typescript-patterns)** | Patrones de diseño en TS real, production-ready | TypeScript |
 | 🐳 **[docker-nextjs-starter](https://github.com/JuanTorchia/docker-nextjs-starter)** | Template production-ready Next.js + Docker + Postgres + Nginx | Docker · Next.js |
-| 📋 **[juanchi-bitacora](https://github.com/JuanTorchia/juanchi-bitacora)** | Kanban personal con IA conectado a GitHub Projects | JavaScript · AI |
+| 🔐 **[X-509-Certificate-Viewer](https://github.com/JuanTorchia/X-509-Certificate-Viewer)** | Standalone X.509 certificate viewer · Cross-platform | Kotlin |
+| ☕ **[java-bouncy-test](https://github.com/JuanTorchia/java-bouncy-test)** | Experimentos con BouncyCastle · Crypto en Java | Java · BouncyCastle |
+| 🛠️ **[init-dev-tools](https://github.com/JuanTorchia/init-dev-tools)** | Scripts para setup inicial de entornos de desarrollo | Shell |
 
+> También desarrollo **extensiones de VS Code publicadas** (HAProxy syntax, X.509 viewer) cuyo código fuente es privado por decisión comercial. Los assets públicos están en [`gmm-haproxy-vscode-assets`](https://github.com/JuanTorchia/gmm-haproxy-vscode-assets) y [`certview-assets`](https://github.com/JuanTorchia/certview-assets).
+>
 > Más en [juanchi.dev/#lab](https://juanchi.dev/#lab)
 
 ---
