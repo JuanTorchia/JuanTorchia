@@ -1,21 +1,24 @@
 <div align="center">
 
 ```text
- _                       _       _     _
-(_)_   _  __ _ _ __   ___| |__   (_) __| | _____   __
-| | | | |/ _` | '_ \ / __| '_ \  | |/ _` |/ _ \ \ / /
-| | |_| | (_| | | | | (__| | | |_| | (_| |  __/\ V /
-|_|\__,_|\__,_|_| |_|\___|_| |_(_)_|\__,_|\___| \_/
+[01001010] [01010101] [01000001] [01001110] [01000011] [01001000] [01001001]
+[00101110] [01000100] [01000101] [01010110] [SYSTEM ONLINE]
+
+     JJJ  U   U   A   N   N  CCCC H   H III      DDDD  EEEEE V   V
+      J   U   U  A A  NN  N C     H   H  I       D   D E     V   V
+      J   U   U AAAAA N N N C     HHHHH  I   ... D   D EEEE  V   V
+  J   J   U   U A   A N  NN C     H   H  I       D   D E      V V
+   JJJ     UUU  A   A N   N  CCCC H   H III      DDDD  EEEEE   V
+
+                     secure systems :: digital trust
+                     ai-assisted engineering :: public lab
 ```
 
 ### Juan Torchia
 
 **Software Architect** focused on secure enterprise systems, digital identity, PKI, and AI-assisted engineering.
 
-[![juanchi.dev](https://img.shields.io/badge/lab-juanchi.dev-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00ff88)](https://juanchi.dev/en)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jtorchia--dev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jtorchia-dev/)
-[![GitHub](https://img.shields.io/badge/GitHub-JuanTorchia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JuanTorchia)
-[![Location](https://img.shields.io/badge/Buenos_Aires-Argentina-75AADB?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+[juanchi.dev](https://juanchi.dev/en) · [LinkedIn](https://www.linkedin.com/in/jtorchia-dev/) · [GitHub](https://github.com/JuanTorchia) · Buenos Aires, Argentina
 
 </div>
 
