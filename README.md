@@ -1,6 +1,6 @@
 <div align="center">
 
-```
+```text
  _                       _       _     _
 (_)_   _  __ _ _ __   ___| |__   (_) __| | _____   __
 | | | | |/ _` | '_ \ / __| '_ \  | |/ _` |/ _ \ \ / /
@@ -8,80 +8,96 @@
 |_|\__,_|\__,_|_| |_|\___|_| |_(_)_|\__,_|\___| \_/
 ```
 
-### Juan Torchia · **Nativo Digital**
+### Juan Torchia
 
-**Arquitecto de Software** · Java · TypeScript · IA · DevOps
-Nacido en 1989 · Tocando computadoras desde 1994 · Escribiendo código desde 2008
+**Software Architect** focused on secure enterprise systems, digital identity, PKI, and AI-assisted engineering.
 
-[![juanchi.dev](https://img.shields.io/badge/blog-juanchi.dev-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00ff88)](https://juanchi.dev)
-[![Twitter](https://img.shields.io/badge/@Juanchi__AR-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Juanchi_AR)
-[![Location](https://img.shields.io/badge/Buenos_Aires-AR-75AADB?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+[![juanchi.dev](https://img.shields.io/badge/lab-juanchi.dev-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00ff88)](https://juanchi.dev/en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jtorchia--dev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jtorchia-dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-JuanTorchia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JuanTorchia)
+[![Location](https://img.shields.io/badge/Buenos_Aires-Argentina-75AADB?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
 
 ---
 
-## 👋 Sobre mí
+## What I Work On
 
-Soy **Juan**, dev argentino de Buenos Aires. Arranqué tocando una 486 en 1994, publiqué mi primera página en 2008 y desde entonces no paré. Hoy trabajo como **Arquitecto de Software en [Lakaut AC](https://lakaut.com.ar)**, después de pasar por Java Backend y Jefatura de Desarrollo.
+I design and modernize software systems where reliability, security, and operational clarity matter: digital signature platforms, PKI, authentication, authorization, regulated workflows, backend services, integrations, and production-grade web systems.
 
-Creo que **la tecnología no es una herramienta, es un idioma nativo**. De ahí el nombre del blog: [juanchi.dev](https://juanchi.dev).
+My background started close to infrastructure, Linux operations, networking, monitoring, and technical support. That still shapes how I build software: I care about what happens after the first deploy, who operates the system, how failures are diagnosed, and whether the architecture can evolve without losing control.
 
 ```ts
-const juanchi = {
-  rol: "Software Architect @ Lakaut AC",
+const focus = {
+  role: "Software Architect",
+  domains: [
+    "secure enterprise systems",
+    "digital identity",
+    "PKI and X.509 tooling",
+    "digital signature workflows",
+    "AI-assisted engineering",
+  ],
   stack: {
-    backend:   ["Java", "Node.js", "Python", "PostgreSQL", "Prisma"],
-    frontend:  ["TypeScript", "Next.js", "React", "Tailwind"],
-    devops:    ["Docker", "Railway", "AWS", "GitHub Actions", "Nginx"],
-    seguridad: ["OAuth2", "X.509", "Post-Quantum Crypto", "Keycloak"],
-    ia:        ["OpenAI", "Anthropic Claude", "Transformers.js", "RAG"]
+    backend: ["Java", "Spring Boot", "Node.js", "PostgreSQL", "Redis"],
+    frontend: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
+    platform: ["Docker", "Linux", "Railway", "GitHub Actions", "AWS"],
+    security: ["OAuth2", "PKI", "X.509", "Keycloak", "Auth0", "post-quantum crypto"],
+    ai: ["OpenAI", "Claude", "Gemini", "RAG", "coding-agent harnesses"],
   },
-  aprendiendo: ["Rust", "Kubernetes avanzado", "ML Engineering"],
-  mantra: "Código que funciona hoy y se puede leer mañana"
+  principle: "Software should be maintainable, auditable, observable, and realistic to operate.",
 };
 ```
 
 ---
 
-## 🧪 Lab & Proyectos destacados
+## Current Direction
 
-| Proyecto | Descripción | Stack |
+I am currently building around three connected lines of work:
+
+- **Secure systems and digital trust**: digital identity, PKI, digital signatures, certificate tooling, crypto-agility, and auditability.
+- **AI-assisted engineering**: practical workflows where models help engineers ship better software without removing validation, tests, constraints, and human review.
+- **Public engineering lab**: [juanchi.dev](https://juanchi.dev/en), where I document systems, experiments, and tooling in public.
+
+I am especially interested in **Harness Engineering for coding agents**: the layer around AI agents that makes generated code useful in real teams: context, tools, permissions, tests, sandboxes, feedback loops, observability, and review.
+
+---
+
+## Featured Projects
+
+| Project | Why it matters | Stack / domain |
 |---|---|---|
-| 🧪 **[pq-signing-demo](https://github.com/JuanTorchia/pq-signing-demo)** | Firma post-cuántica en el browser (ML-DSA / SLH-DSA) | WebAssembly · NIST |
-| ⚡ **[nextjs-perf-demo](https://github.com/JuanTorchia/nextjs-perf-demo)** | Comparativa 3s → 300ms con Server Components + ISR | Next.js 16 · RSC |
-| 🤖 **[browser-llm-demo](https://github.com/JuanTorchia/browser-llm-demo)** | LLM corriendo 100% en el browser, sin servidor ni API key | Transformers.js |
-| 📘 **[typescript-patterns](https://github.com/JuanTorchia/typescript-patterns)** | Patrones de diseño en TS real, production-ready | TypeScript |
-| 🐳 **[docker-nextjs-starter](https://github.com/JuanTorchia/docker-nextjs-starter)** | Template production-ready Next.js + Docker + Postgres + Nginx | Docker · Next.js |
-| 🔐 **[X-509-Certificate-Viewer](https://github.com/JuanTorchia/X-509-Certificate-Viewer)** | Standalone X.509 certificate viewer · Cross-platform | Kotlin |
-| ☕ **[java-bouncy-test](https://github.com/JuanTorchia/java-bouncy-test)** | Experimentos con BouncyCastle · Crypto en Java | Java · BouncyCastle |
-| 🛠️ **[init-dev-tools](https://github.com/JuanTorchia/init-dev-tools)** | Scripts para setup inicial de entornos de desarrollo | Shell |
+| [GreenGate](https://github.com/JuanTorchia/greengate) | Human-approved AI agents using Auth0 CIBA and Gemini. The agent proposes, the phone approves. Winner: DEV Challenge Best Use of Auth0 for Agents. | Auth0 CIBA, Gemini, Next.js, PostgreSQL, audit workflows |
+| [Post-Quantum Signing](https://github.com/JuanTorchia/pq-signing-demo) | Software HSM-style prototype for post-quantum digital signatures, hybrid signing, and crypto-agility. | TypeScript, ML-DSA, SLH-DSA, ECDSA, WebAssembly |
+| [Certificate Viewer for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | Developer tooling for inspecting X.509 certificates directly in the editor. | TypeScript, VS Code Extension API, X.509, PKI |
+| [X.509 Certificate Viewer](https://github.com/JuanTorchia/X-509-Certificate-Viewer) | Standalone certificate viewer for SSL/TLS and X.509 workflows. | Kotlin, certificates, desktop tooling |
+| [Awesome Curated](https://github.com/JuanTorchia/awesome-curated) | Auto-curated developer-tool roster: GitHub discovery, scoring, dedupe, AI enrichment, and human verdicts. | Next.js, GitHub APIs, AI-assisted curation |
+| [modern-java-upgrade-lab](https://github.com/JuanTorchia/modern-java-upgrade-lab) | Evidence-based reports for Java LTS migrations and modernization decisions. | Java, migration analysis, reports |
+| [hikaricp-pool-experiment](https://github.com/JuanTorchia/hikaricp-pool-experiment) | Reproducible experiment for HikariCP pool exhaustion with Spring Boot, PostgreSQL, and k6. | Spring Boot, PostgreSQL, k6 |
+| [opentelemetry-spring-boot-lab](https://github.com/JuanTorchia/opentelemetry-spring-boot-lab) | Observability lab for Spring Boot systems. | Java, Spring Boot, OpenTelemetry |
 
-> También desarrollo **extensiones de VS Code publicadas** (HAProxy syntax, X.509 viewer) cuyo código fuente es privado por decisión comercial. Los assets públicos están en [`gmm-haproxy-vscode-assets`](https://github.com/JuanTorchia/gmm-haproxy-vscode-assets) y [`certview-assets`](https://github.com/JuanTorchia/certview-assets).
->
-> Más en [juanchi.dev/#lab](https://juanchi.dev/#lab)
+More experiments live in [juanchi.dev/lab](https://juanchi.dev/en#lab) and across my public repositories.
 
 ---
 
-## ✍️ Blog
+## Writing
 
-Escribo sobre lo que aprendo trabajando. Algunos temas recurrentes:
+I write about practical engineering work, mostly around:
 
-- **Arquitectura de software** aplicada, no teoría de libro
-- **Performance web** medible (LCP, FID, INP)
-- **Criptografía moderna** (X.509, post-cuántica, firma digital)
-- **IA en producto real**, no en demos
-- **Ser dev en Argentina** · la perspectiva que no aparece en los tutoriales de YouTube
+- software architecture and modernization
+- secure systems, digital identity, PKI, and digital signatures
+- Java, Spring Boot, PostgreSQL, Next.js, and TypeScript
+- AI-assisted engineering and coding-agent workflows
+- developer tooling, observability, and production operations
 
-📖 **[juanchi.dev/blog](https://juanchi.dev/blog)**
+Read more at [juanchi.dev/blog](https://juanchi.dev/en/blog).
 
 ---
 
-## 📊 GitHub en números
+## GitHub Stats
 
 <div align="center">
 
-![Juanchi's GitHub stats](https://github-readme-stats.vercel.app/api?username=JuanTorchia&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00ff88&icon_color=00ff88&text_color=ffffff)
+![Juan's GitHub stats](https://github-readme-stats.vercel.app/api?username=JuanTorchia&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00ff88&icon_color=00ff88&text_color=ffffff)
 ![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JuanTorchia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00ff88&text_color=ffffff&langs_count=8)
 
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=JuanTorchia&theme=tokyonight&hide_border=true&background=0a0a0a&stroke=00ff88&ring=00ff88&fire=ec4899&currStreakLabel=00ff88)
@@ -90,19 +106,18 @@ Escribo sobre lo que aprendo trabajando. Algunos temas recurrentes:
 
 ---
 
-## 🤝 Colaboremos
+## Contact
 
-- 🐛 ¿Encontraste un bug en alguno de mis repos? → **Abrí un issue**
-- 🔀 ¿Querés mejorar algo? → **Mandá un PR**, todos los proyectos aceptan contribuciones
-- 💼 ¿Proyecto, freelance, consultoría? → **juanchi.dev/#contacto**
-- ☕ ¿Solo charlar de arquitectura, IA, o el estado de la industria? → DM en [@Juanchi_AR](https://twitter.com/Juanchi_AR)
+- LinkedIn: [linkedin.com/in/jtorchia-dev](https://www.linkedin.com/in/jtorchia-dev/)
+- Website: [juanchi.dev/en](https://juanchi.dev/en)
+- GitHub issues and pull requests are welcome on public repos.
 
 ---
 
 <div align="center">
 
-*"Nativo digital: no porque nací con la tecnología, sino porque la hablo como idioma propio."*
+**Secure systems, digital trust, and AI-assisted engineering.**
 
-**[juanchi.dev](https://juanchi.dev)** · [blog](https://juanchi.dev/blog) · [lab](https://juanchi.dev/#lab)
+[juanchi.dev](https://juanchi.dev/en) · [blog](https://juanchi.dev/en/blog) · [lab](https://juanchi.dev/en#lab)
 
 </div>
