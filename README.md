@@ -1,17 +1,17 @@
 <div align="center">
 
 ```text
-[01001010] [01010101] [01000001] [01001110] [01000011] [01001000] [01001001]
-[00101110] [01000100] [01000101] [01010110] [SYSTEM ONLINE]
+01001010 01010101 01000001 01001110 01000011 01001000 01001001
+00101110 01000100 01000101 01010110
 
-     JJJ  U   U   A   N   N  CCCC H   H III      DDDD  EEEEE V   V
-      J   U   U  A A  NN  N C     H   H  I       D   D E     V   V
-      J   U   U AAAAA N N N C     HHHHH  I   ... D   D EEEE  V   V
-  J   J   U   U A   A N  NN C     H   H  I       D   D E      V V
-   JJJ     UUU  A   A N   N  CCCC H   H III      DDDD  EEEEE   V
+> boot: public engineering lab
+> node: juanchi.dev
+> status: online
 
-                     secure systems :: digital trust
-                     ai-assisted engineering :: public lab
+             j u a n c h i . d e v
+             =====================
+
+ secure systems | digital trust | ai-assisted engineering
 ```
 
 ### Juan Torchia
@@ -96,16 +96,13 @@ Read more at [juanchi.dev/blog](https://juanchi.dev/en/blog).
 
 ---
 
-## GitHub Stats
+## GitHub Signal
 
-<div align="center">
+I use GitHub as a public engineering lab: small proofs, focused tools, modernization experiments, and production-shaped prototypes.
 
-![Juan's GitHub stats](https://github-readme-stats.vercel.app/api?username=JuanTorchia&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00ff88&icon_color=00ff88&text_color=ffffff)
-![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JuanTorchia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00ff88&text_color=ffffff&langs_count=8)
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=JuanTorchia&theme=tokyonight&hide_border=true&background=0a0a0a&stroke=00ff88&ring=00ff88&fire=ec4899&currStreakLabel=00ff88)
-
-</div>
+- **Security and trust**: PKI, X.509, digital signatures, post-quantum signing, auth workflows.
+- **Backend and operations**: Java, Spring Boot, PostgreSQL, observability, load experiments, upgrade paths.
+- **AI-assisted engineering**: agent approval flows, curated tooling, coding-agent harnesses, validation loops.
 
 ---
 
