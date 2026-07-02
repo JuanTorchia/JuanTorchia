@@ -156,23 +156,12 @@ More experiments live in [juanchi.dev/lab](https://juanchi.dev/en#lab) and acros
 
 ## Pinned Work
 
-<p align="center">
-  <a href="https://github.com/JuanTorchia/certificate-viewer-open-vscode">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanTorchia&repo=certificate-viewer-open-vscode&theme=dark&hide_border=true" alt="CertView for VS Code" />
-  </a>
-  <a href="https://github.com/JuanTorchia/gmm-haproxy-vscode">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanTorchia&repo=gmm-haproxy-vscode&theme=dark&hide_border=true" alt="HAProxy Config for VS Code" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/JuanTorchia/greengate">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanTorchia&repo=greengate&theme=dark&hide_border=true" alt="GreenGate" />
-  </a>
-  <a href="https://github.com/JuanTorchia/pq-signing-demo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanTorchia&repo=pq-signing-demo&theme=dark&hide_border=true" alt="Post-Quantum Signing" />
-  </a>
-</p>
+| Repository | Focus | Signal |
+|---|---|---|
+| [certificate-viewer-open-vscode](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | X.509, CSR, CRL, key, and keystore inspection inside VS Code. | ![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/gmm.certview?label=marketplace&color=0078d4) |
+| [gmm-haproxy-vscode](https://github.com/JuanTorchia/gmm-haproxy-vscode) | HAProxy language tooling for validation, completion, hover docs, snippets, and formatting. | ![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/gmm.gmm-haproxy-vscode?label=marketplace&color=0078d4) |
+| [greengate](https://github.com/JuanTorchia/greengate) | Human-approved AI agents with Auth0 CIBA and Gemini. | agent approval workflows |
+| [pq-signing-demo](https://github.com/JuanTorchia/pq-signing-demo) | Post-quantum and hybrid signing experiments. | crypto-agility lab |
 
 ---
 
