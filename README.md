@@ -20,6 +20,11 @@
 
 [juanchi.dev](https://juanchi.dev/en) · [LinkedIn](https://www.linkedin.com/in/jtorchia-dev/) · [GitHub](https://github.com/JuanTorchia) · Buenos Aires, Argentina
 
+[![CertView VS Code](https://img.shields.io/visual-studio-marketplace/v/gmm.certview?label=CertView%20VS%20Code&logo=visualstudiocode&logoColor=white&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.certview)
+[![CertView installs](https://img.shields.io/visual-studio-marketplace/i/gmm.certview?label=CertView%20installs&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.certview)
+[![HAProxy VS Code](https://img.shields.io/visual-studio-marketplace/v/gmm.gmm-haproxy-vscode?label=HAProxy%20VS%20Code&logo=visualstudiocode&logoColor=white&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode)
+[![HAProxy installs](https://img.shields.io/visual-studio-marketplace/i/gmm.gmm-haproxy-vscode?label=HAProxy%20installs&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode)
+
 </div>
 
 ---
@@ -41,7 +46,7 @@ const focus = {
     "AI-assisted engineering",
   ],
   stack: {
-    backend: ["Java", "Spring Boot", "Node.js", "PostgreSQL", "Redis"],
+    backend: ["Java", "Spring Boot", "Node.js", "PostgreSQL", "Redis", "Go", "Rust"],
     frontend: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
     platform: ["Docker", "Linux", "Railway", "GitHub Actions", "AWS"],
     security: ["OAuth2", "PKI", "X.509", "Keycloak", "Auth0", "post-quantum crypto"],
@@ -60,6 +65,7 @@ I am currently building around three connected lines of work:
 - **Secure systems and digital trust**: digital identity, PKI, digital signatures, certificate tooling, crypto-agility, and auditability.
 - **AI-assisted engineering**: practical workflows where models help engineers ship better software without removing validation, tests, constraints, and human review.
 - **Public engineering lab**: [juanchi.dev](https://juanchi.dev/en), where I document systems, experiments, and tooling in public.
+- **Rust and Go systems work**: early experiments around lower-level runtimes, developer tooling, and future PKI/security services.
 
 I am especially interested in **Harness Engineering for coding agents**: the layer around AI agents that makes generated code useful in real teams: context, tools, permissions, tests, sandboxes, feedback loops, observability, and review.
 
@@ -90,6 +96,7 @@ positioning:
     - "secure backend systems"
     - "Java and Spring Boot modernization"
     - "Next.js and TypeScript product engineering"
+    - "early Rust and Go systems/tooling work"
     - "AI-assisted software engineering"
     - "coding-agent harnesses, validation loops, and human approval workflows"
 
@@ -104,10 +111,28 @@ not_just_keywords:
   evidence:
     - "public repositories with working prototypes"
     - "technical writing at juanchi.dev"
-    - "projects connecting Auth0 CIBA, Gemini, PKI, X.509, post-quantum signing, observability, and modernization"
+    - "projects connecting Auth0 CIBA, Gemini, PKI, X.509, HAProxy, IDE tooling, post-quantum signing, observability, and modernization"
 ```
 
 ---
+
+## Tooling I Shipped
+
+| Tool | What it does | Signal |
+|---|---|---|
+| [CertView for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | Opens X.509 certificates, chains, CSRs, CRLs, public/private keys, PKCS#7 bundles, and PKCS#12 keystores directly in VS Code. | Published on the VS Code Marketplace as `gmm.certview`; works offline and focuses on PKI inspection without terminal glue. |
+| [Certificate Viewer for IntelliJ](https://github.com/JuanTorchia/certificate-viewer-open) | Adds certificate and Java keystore inspection inside JetBrains IDEs. | Kotlin + IntelliJ Platform plugin for certificate-heavy Java workflows. |
+| [HAProxy Config for VS Code](https://github.com/JuanTorchia/gmm-haproxy-vscode) | Adds HAProxy syntax highlighting, version-aware validation, completions, hover docs, snippets, formatting, and go-to-definition. | Published on the VS Code Marketplace as `gmm.gmm-haproxy-vscode`; built for real infra config editing. |
+
+---
+
+## Currently Building
+
+- Hardening **CertView** parsing, diagnostics, Marketplace polish, and contributor workflow.
+- Improving **HAProxy Config for VS Code** around production-shaped validation and editor ergonomics.
+- Expanding **juanchi.dev** as a bilingual engineering lab with AI-assisted editorial pipelines.
+- Building reproducible Java enterprise runtime benchmarks instead of framework folklore.
+- Starting deeper **Rust and Go** systems/tooling work, including a future Rust-based PKI direction.
 
 ## Featured Projects
 
