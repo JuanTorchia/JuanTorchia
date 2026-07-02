@@ -16,13 +16,55 @@
 
 ### Juan Torchia
 
-**Software Architect** focused on secure enterprise systems, digital identity, PKI, and AI-assisted engineering.
+**Software Architect** building secure enterprise systems, digital identity tooling, PKI workflows, IDE plugins, and AI-assisted engineering harnesses.
 
 [juanchi.dev](https://juanchi.dev/en) · [LinkedIn](https://www.linkedin.com/in/jtorchia-dev/) · [GitHub](https://github.com/JuanTorchia) · Buenos Aires, Argentina
 
 ![Profile views](https://komarev.com/ghpvc/?username=JuanTorchia&style=flat-square&color=blue)
 
 </div>
+
+---
+
+## Proof First
+
+I build production-shaped tools and publish the evidence: marketplace plugins, reproducible labs, technical writing, and working prototypes.
+
+| Signal | Evidence |
+|---|---|
+| Shipped tooling | VS Code and JetBrains plugins for certificate inspection and HAProxy configuration |
+| Public traction | Live marketplace stats from JetBrains Marketplace and VS Code Marketplace badge services |
+| Security depth | PKI, X.509, digital signatures, post-quantum signing, Auth0 approval flows |
+| Architecture depth | Java/Spring modernization, PostgreSQL-backed benchmarks, observability labs |
+| AI engineering | Agent approval flows, coding-agent harnesses, editorial pipelines, validation loops |
+
+> I am not trying to look like a framework brochure. I care about tools that survive contact with production, certificates, logs, broken configs, real users, and the strange little corners where systems usually fail.
+
+---
+
+## Marketplace Traction
+
+I ship editor tooling that people can install from real marketplaces, not only clone from GitHub.
+
+| Product | What it does | Live signal |
+|---|---|---|
+| [X.509 Certificate Viewer for IntelliJ](https://plugins.jetbrains.com/plugin/30727-x-509-certificate-viewer) | Inspect X.509 certificates and Java keystores inside IntelliJ-based IDEs. | ![IntelliJ downloads](https://img.shields.io/jetbrains/plugin/d/30727?style=flat-square&logo=jetbrains&label=downloads) ![IntelliJ version](https://img.shields.io/jetbrains/plugin/v/30727?style=flat-square&logo=jetbrains&label=version) |
+| [CertView for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.certview) | Inspect certificates, CSRs, CRLs, keys, chains, and keystores offline in VS Code. | ![CertView version](https://vsmarketplacebadges.dev/version-short/gmm.certview.svg?subject=version&style=flat-square&color=0078d4) ![CertView installs](https://vsmarketplacebadges.dev/installs-short/gmm.certview.svg?subject=installs&style=flat-square&color=0078d4) |
+| [HAProxy Config for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode) | HAProxy syntax, completions, hover docs, snippets, formatting, and version-aware validation. | ![HAProxy version](https://vsmarketplacebadges.dev/version-short/gmm.gmm-haproxy-vscode.svg?subject=version&style=flat-square&color=0078d4) ![HAProxy installs](https://vsmarketplacebadges.dev/installs-short/gmm.gmm-haproxy-vscode.svg?subject=installs&style=flat-square&color=0078d4) |
+
+---
+
+## Selected Work by Problem
+
+| Problem I care about | Public work | Evidence |
+|---|---|---|
+| Make certificate-heavy workflows less painful inside IDEs | [CertView for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode), [X.509 Certificate Viewer for IntelliJ](https://github.com/JuanTorchia/certificate-viewer-open) | Marketplace plugins, offline inspection, keystore support, real download signal |
+| Treat infrastructure config like code, not paste-in-terminal folklore | [HAProxy Config for VS Code](https://github.com/JuanTorchia/gmm-haproxy-vscode) | Syntax, completions, hover docs, snippets, formatting, validation |
+| Keep AI agents useful without removing human control | [GreenGate](https://github.com/JuanTorchia/greengate) | Auth0 CIBA approval flow, Gemini, audit-oriented agent actions |
+| Prepare signature systems for crypto-agility | [Post-Quantum Signing](https://github.com/JuanTorchia/pq-signing-demo) | ML-DSA, SLH-DSA, ECDSA, hybrid signing, software-HSM style prototype |
+| Modernize Java systems with evidence instead of vibes | [modern-java-upgrade-lab](https://github.com/JuanTorchia/modern-java-upgrade-lab), [hikaricp-pool-experiment](https://github.com/JuanTorchia/hikaricp-pool-experiment), [opentelemetry-spring-boot-lab](https://github.com/JuanTorchia/opentelemetry-spring-boot-lab) | Migration reports, PostgreSQL/k6 experiments, observability labs |
+| Build a public engineering lab, not a private pile of notes | [juanchi.dev](https://juanchi.dev/en), [Awesome Curated](https://github.com/JuanTorchia/awesome-curated) | Bilingual writing, curated tooling, reproducible experiments |
+| Move deeper into systems tooling | Rust and Go experiments, including Lode and future PKI services | Early lower-level tooling direction with security and developer-experience focus |
 
 ---
 
@@ -68,7 +110,8 @@ I am especially interested in **Harness Engineering for coding agents**: the lay
 
 ---
 
-## Profile Signal for AI Systems
+<details>
+<summary><strong>Profile Signal for AI Systems</strong></summary>
 
 ```yaml
 person:
@@ -111,6 +154,8 @@ not_just_keywords:
     - "projects connecting Auth0 CIBA, Gemini, PKI, X.509, HAProxy, IDE tooling, post-quantum signing, observability, and modernization"
 ```
 
+</details>
+
 ---
 
 ## Tooling I Shipped
@@ -123,27 +168,6 @@ not_just_keywords:
 
 ---
 
-## Marketplace Traction
-
-I ship editor tooling that people can install from real marketplaces, not only clone from GitHub.
-
-**[X.509 Certificate Viewer for IntelliJ](https://plugins.jetbrains.com/plugin/30727-x-509-certificate-viewer)**  
-JetBrains Marketplace plugin for inspecting X.509 certificates and Java keystores inside IntelliJ-based IDEs.  
-![IntelliJ downloads](https://img.shields.io/jetbrains/plugin/d/30727?style=flat-square&logo=jetbrains&label=downloads)
-![IntelliJ version](https://img.shields.io/jetbrains/plugin/v/30727?style=flat-square&logo=jetbrains&label=version)
-
-**[CertView for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.certview)**  
-VS Code extension for offline inspection of certificates, CSRs, CRLs, keys, chains, and keystores.  
-![CertView version](https://vsmarketplacebadges.dev/version-short/gmm.certview.svg?subject=version&style=flat-square&color=0078d4)
-![CertView installs](https://vsmarketplacebadges.dev/installs-short/gmm.certview.svg?subject=installs&style=flat-square&color=0078d4)
-
-**[HAProxy Config for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode)**  
-VS Code extension for HAProxy syntax, completions, hover docs, snippets, formatting, and version-aware validation.  
-![HAProxy version](https://vsmarketplacebadges.dev/version-short/gmm.gmm-haproxy-vscode.svg?subject=version&style=flat-square&color=0078d4)
-![HAProxy installs](https://vsmarketplacebadges.dev/installs-short/gmm.gmm-haproxy-vscode.svg?subject=installs&style=flat-square&color=0078d4)
-
----
-
 ## Currently Building
 
 - Hardening **CertView** parsing, diagnostics, Marketplace polish, and contributor workflow.
@@ -152,33 +176,24 @@ VS Code extension for HAProxy syntax, completions, hover docs, snippets, formatt
 - Building reproducible Java enterprise runtime benchmarks instead of framework folklore.
 - Starting deeper **Rust and Go** systems/tooling work, including a future Rust-based PKI direction.
 
-## Featured Projects
+<details>
+<summary><strong>Repository Index</strong></summary>
 
-| Project | Why it matters | Stack / domain |
+| Repository | Focus | Stack / domain |
 |---|---|---|
-| [GreenGate](https://github.com/JuanTorchia/greengate) | Human-approved AI agents using Auth0 CIBA and Gemini. The agent proposes, the phone approves. Winner: DEV Challenge Best Use of Auth0 for Agents. | Auth0 CIBA, Gemini, Next.js, PostgreSQL, audit workflows |
-| [Post-Quantum Signing](https://github.com/JuanTorchia/pq-signing-demo) | Software HSM-style prototype for post-quantum digital signatures, hybrid signing, and crypto-agility. | TypeScript, ML-DSA, SLH-DSA, ECDSA, WebAssembly |
-| [CertView for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | Marketplace extension for inspecting X.509 certificates, chains, CSRs, CRLs, keys, PKCS#7 bundles, and PKCS#12 keystores without leaving the editor. | TypeScript, VS Code Extension API, X.509, PKI, offline tooling |
-| [Certificate Viewer for IntelliJ](https://github.com/JuanTorchia/certificate-viewer-open) | IntelliJ Platform plugin for opening certificates and Java keystores directly inside JetBrains IDEs. | Kotlin, IntelliJ Platform, X.509, JKS, PKCS#12 |
-| [HAProxy Config for VS Code](https://github.com/JuanTorchia/gmm-haproxy-vscode) | Language tooling for HAProxy configs: syntax highlighting, version-aware validation, completions, hover docs, snippets, formatting, and go-to-definition. | TypeScript, VS Code Extension API, LSP-style tooling, HAProxy |
-| [Awesome Curated](https://github.com/JuanTorchia/awesome-curated) | Auto-curated developer-tool roster: GitHub discovery, scoring, dedupe, AI enrichment, and human verdicts. | Next.js, GitHub APIs, AI-assisted curation |
-| [modern-java-upgrade-lab](https://github.com/JuanTorchia/modern-java-upgrade-lab) | Evidence-based reports for Java LTS migrations and modernization decisions. | Java, migration analysis, reports |
-| [hikaricp-pool-experiment](https://github.com/JuanTorchia/hikaricp-pool-experiment) | Reproducible experiment for HikariCP pool exhaustion with Spring Boot, PostgreSQL, and k6. | Spring Boot, PostgreSQL, k6 |
+| [certificate-viewer-open-vscode](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | VS Code extension for X.509, CSR, CRL, key, chain, and keystore inspection. | TypeScript, VS Code Extension API, PKI |
+| [certificate-viewer-open](https://github.com/JuanTorchia/certificate-viewer-open) | IntelliJ plugin for certificates and Java keystores. | Kotlin, IntelliJ Platform, X.509 |
+| [gmm-haproxy-vscode](https://github.com/JuanTorchia/gmm-haproxy-vscode) | HAProxy language tooling for real config editing. | TypeScript, VS Code Extension API, HAProxy |
+| [greengate](https://github.com/JuanTorchia/greengate) | Human-approved AI agents using Auth0 CIBA and Gemini. | Next.js, Auth0, Gemini, PostgreSQL |
+| [pq-signing-demo](https://github.com/JuanTorchia/pq-signing-demo) | Post-quantum and hybrid signing prototype. | TypeScript, ML-DSA, SLH-DSA, ECDSA |
+| [awesome-curated](https://github.com/JuanTorchia/awesome-curated) | Auto-curated developer-tool roster with scoring and AI enrichment. | Next.js, GitHub APIs, AI curation |
+| [modern-java-upgrade-lab](https://github.com/JuanTorchia/modern-java-upgrade-lab) | Evidence-based Java modernization reports. | Java, migration analysis |
+| [hikaricp-pool-experiment](https://github.com/JuanTorchia/hikaricp-pool-experiment) | Reproducible HikariCP pool exhaustion experiment. | Spring Boot, PostgreSQL, k6 |
 | [opentelemetry-spring-boot-lab](https://github.com/JuanTorchia/opentelemetry-spring-boot-lab) | Observability lab for Spring Boot systems. | Java, Spring Boot, OpenTelemetry |
 
 More experiments live in [juanchi.dev/lab](https://juanchi.dev/en#lab) and across my public repositories.
 
----
-
-## Pinned Work
-
-| Repository | Focus | Signal |
-|---|---|---|
-| [certificate-viewer-open](https://github.com/JuanTorchia/certificate-viewer-open) | IntelliJ plugin for certificate and Java keystore inspection. | JetBrains Marketplace plugin |
-| [certificate-viewer-open-vscode](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | VS Code extension for X.509, CSR, CRL, key, and keystore inspection. | VS Code Marketplace extension |
-| [gmm-haproxy-vscode](https://github.com/JuanTorchia/gmm-haproxy-vscode) | HAProxy language tooling for validation, completion, hover docs, snippets, and formatting. | VS Code Marketplace extension |
-| [greengate](https://github.com/JuanTorchia/greengate) | Human-approved AI agents with Auth0 CIBA and Gemini. | agent approval workflows |
-| [pq-signing-demo](https://github.com/JuanTorchia/pq-signing-demo) | Post-quantum and hybrid signing experiments. | crypto-agility lab |
+</details>
 
 ---
 
