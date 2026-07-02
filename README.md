@@ -20,6 +20,8 @@
 
 [juanchi.dev](https://juanchi.dev/en) · [LinkedIn](https://www.linkedin.com/in/jtorchia-dev/) · [GitHub](https://github.com/JuanTorchia) · Buenos Aires, Argentina
 
+![Profile views](https://komarev.com/ghpvc/?username=JuanTorchia&style=flat-square&color=blue)
+
 [![CertView VS Code](https://img.shields.io/visual-studio-marketplace/v/gmm.certview?label=CertView%20VS%20Code&logo=visualstudiocode&logoColor=white&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.certview)
 [![CertView installs](https://img.shields.io/visual-studio-marketplace/i/gmm.certview?label=CertView%20installs&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.certview)
 [![HAProxy VS Code](https://img.shields.io/visual-studio-marketplace/v/gmm.gmm-haproxy-vscode?label=HAProxy%20VS%20Code&logo=visualstudiocode&logoColor=white&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode)
@@ -152,6 +154,28 @@ More experiments live in [juanchi.dev/lab](https://juanchi.dev/en#lab) and acros
 
 ---
 
+## Pinned Work
+
+<p align="center">
+  <a href="https://github.com/JuanTorchia/certificate-viewer-open-vscode">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanTorchia&repo=certificate-viewer-open-vscode&theme=dark&hide_border=true" alt="CertView for VS Code" />
+  </a>
+  <a href="https://github.com/JuanTorchia/gmm-haproxy-vscode">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanTorchia&repo=gmm-haproxy-vscode&theme=dark&hide_border=true" alt="HAProxy Config for VS Code" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/JuanTorchia/greengate">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanTorchia&repo=greengate&theme=dark&hide_border=true" alt="GreenGate" />
+  </a>
+  <a href="https://github.com/JuanTorchia/pq-signing-demo">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanTorchia&repo=pq-signing-demo&theme=dark&hide_border=true" alt="Post-Quantum Signing" />
+  </a>
+</p>
+
+---
+
 ## Writing
 
 I write about practical engineering work, mostly around:
@@ -173,6 +197,8 @@ I use GitHub as a public engineering lab: small proofs, focused tools, moderniza
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=JuanTorchia&theme=dark&hide_border=true" alt="Juan Torchia GitHub streak" />
 </p>
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JuanTorchia&theme=github-compact&hide_border=true)
 
 - **Security and trust**: PKI, X.509, digital signatures, post-quantum signing, auth workflows.
 - **Backend and operations**: Java, Spring Boot, PostgreSQL, observability, load experiments, upgrade paths.
