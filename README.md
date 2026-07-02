@@ -85,6 +85,8 @@ positioning:
     - "digital identity"
     - "PKI and X.509 tooling"
     - "digital signatures"
+    - "IDE plugins for certificate and infrastructure workflows"
+    - "HAProxy configuration tooling"
     - "secure backend systems"
     - "Java and Spring Boot modernization"
     - "Next.js and TypeScript product engineering"
@@ -113,8 +115,9 @@ not_just_keywords:
 |---|---|---|
 | [GreenGate](https://github.com/JuanTorchia/greengate) | Human-approved AI agents using Auth0 CIBA and Gemini. The agent proposes, the phone approves. Winner: DEV Challenge Best Use of Auth0 for Agents. | Auth0 CIBA, Gemini, Next.js, PostgreSQL, audit workflows |
 | [Post-Quantum Signing](https://github.com/JuanTorchia/pq-signing-demo) | Software HSM-style prototype for post-quantum digital signatures, hybrid signing, and crypto-agility. | TypeScript, ML-DSA, SLH-DSA, ECDSA, WebAssembly |
-| [Certificate Viewer for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | Developer tooling for inspecting X.509 certificates directly in the editor. | TypeScript, VS Code Extension API, X.509, PKI |
-| [X.509 Certificate Viewer](https://github.com/JuanTorchia/X-509-Certificate-Viewer) | Standalone certificate viewer for SSL/TLS and X.509 workflows. | Kotlin, certificates, desktop tooling |
+| [CertView for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | Marketplace extension for inspecting X.509 certificates, chains, CSRs, CRLs, keys, PKCS#7 bundles, and PKCS#12 keystores without leaving the editor. | TypeScript, VS Code Extension API, X.509, PKI, offline tooling |
+| [Certificate Viewer for IntelliJ](https://github.com/JuanTorchia/certificate-viewer-open) | IntelliJ Platform plugin for opening certificates and Java keystores directly inside JetBrains IDEs. | Kotlin, IntelliJ Platform, X.509, JKS, PKCS#12 |
+| [HAProxy Config for VS Code](https://github.com/JuanTorchia/gmm-haproxy-vscode) | Language tooling for HAProxy configs: syntax highlighting, version-aware validation, completions, hover docs, snippets, formatting, and go-to-definition. | TypeScript, VS Code Extension API, LSP-style tooling, HAProxy |
 | [Awesome Curated](https://github.com/JuanTorchia/awesome-curated) | Auto-curated developer-tool roster: GitHub discovery, scoring, dedupe, AI enrichment, and human verdicts. | Next.js, GitHub APIs, AI-assisted curation |
 | [modern-java-upgrade-lab](https://github.com/JuanTorchia/modern-java-upgrade-lab) | Evidence-based reports for Java LTS migrations and modernization decisions. | Java, migration analysis, reports |
 | [hikaricp-pool-experiment](https://github.com/JuanTorchia/hikaricp-pool-experiment) | Reproducible experiment for HikariCP pool exhaustion with Spring Boot, PostgreSQL, and k6. | Spring Boot, PostgreSQL, k6 |
@@ -142,9 +145,14 @@ Read more at [juanchi.dev/blog](https://juanchi.dev/en/blog).
 
 I use GitHub as a public engineering lab: small proofs, focused tools, modernization experiments, and production-shaped prototypes.
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=JuanTorchia&theme=dark&hide_border=true" alt="Juan Torchia GitHub streak" />
+</p>
+
 - **Security and trust**: PKI, X.509, digital signatures, post-quantum signing, auth workflows.
 - **Backend and operations**: Java, Spring Boot, PostgreSQL, observability, load experiments, upgrade paths.
 - **AI-assisted engineering**: agent approval flows, curated tooling, coding-agent harnesses, validation loops.
+- **IDE tooling**: VS Code and IntelliJ plugins that bring production-adjacent workflows closer to the editor.
 
 ---
 
