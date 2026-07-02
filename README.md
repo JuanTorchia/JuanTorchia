@@ -22,13 +22,6 @@
 
 ![Profile views](https://komarev.com/ghpvc/?username=JuanTorchia&style=flat-square&color=blue)
 
-[![CertView version](https://vsmarketplacebadges.dev/version-short/gmm.certview.svg?style=flat-square&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.certview)
-[![CertView installs](https://vsmarketplacebadges.dev/installs-short/gmm.certview.svg?style=flat-square&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.certview)
-[![HAProxy version](https://vsmarketplacebadges.dev/version-short/gmm.gmm-haproxy-vscode.svg?style=flat-square&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode)
-[![HAProxy installs](https://vsmarketplacebadges.dev/installs-short/gmm.gmm-haproxy-vscode.svg?style=flat-square&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode)
-[![IntelliJ downloads](https://img.shields.io/jetbrains/plugin/d/30727?style=flat-square&logo=jetbrains&label=IntelliJ%20downloads)](https://plugins.jetbrains.com/plugin/30727-x-509-certificate-viewer)
-[![IntelliJ version](https://img.shields.io/jetbrains/plugin/v/30727?style=flat-square&logo=jetbrains&label=IntelliJ%20version)](https://plugins.jetbrains.com/plugin/30727-x-509-certificate-viewer)
-
 </div>
 
 ---
@@ -130,6 +123,16 @@ not_just_keywords:
 
 ---
 
+## Marketplace Traction
+
+| Product | Marketplace | Live stats |
+|---|---|---|
+| [CertView for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.certview) | VS Code Marketplace | ![CertView version](https://vsmarketplacebadges.dev/version-short/gmm.certview.svg?subject=version&style=flat-square&color=0078d4) ![CertView installs](https://vsmarketplacebadges.dev/installs-short/gmm.certview.svg?subject=installs&style=flat-square&color=0078d4) |
+| [HAProxy Config for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode) | VS Code Marketplace | ![HAProxy version](https://vsmarketplacebadges.dev/version-short/gmm.gmm-haproxy-vscode.svg?subject=version&style=flat-square&color=0078d4) ![HAProxy installs](https://vsmarketplacebadges.dev/installs-short/gmm.gmm-haproxy-vscode.svg?subject=installs&style=flat-square&color=0078d4) |
+| [X.509 Certificate Viewer for IntelliJ](https://plugins.jetbrains.com/plugin/30727-x-509-certificate-viewer) | JetBrains Marketplace | ![IntelliJ downloads](https://img.shields.io/jetbrains/plugin/d/30727?style=flat-square&logo=jetbrains&label=downloads) ![IntelliJ version](https://img.shields.io/jetbrains/plugin/v/30727?style=flat-square&logo=jetbrains&label=version) |
+
+---
+
 ## Currently Building
 
 - Hardening **CertView** parsing, diagnostics, Marketplace polish, and contributor workflow.
@@ -160,9 +163,9 @@ More experiments live in [juanchi.dev/lab](https://juanchi.dev/en#lab) and acros
 
 | Repository | Focus | Signal |
 |---|---|---|
-| [certificate-viewer-open-vscode](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | X.509, CSR, CRL, key, and keystore inspection inside VS Code. | ![version](https://vsmarketplacebadges.dev/version-short/gmm.certview.svg?style=flat-square&color=0078d4) ![installs](https://vsmarketplacebadges.dev/installs-short/gmm.certview.svg?style=flat-square&color=0078d4) |
-| [gmm-haproxy-vscode](https://github.com/JuanTorchia/gmm-haproxy-vscode) | HAProxy language tooling for validation, completion, hover docs, snippets, and formatting. | ![version](https://vsmarketplacebadges.dev/version-short/gmm.gmm-haproxy-vscode.svg?style=flat-square&color=0078d4) ![installs](https://vsmarketplacebadges.dev/installs-short/gmm.gmm-haproxy-vscode.svg?style=flat-square&color=0078d4) |
-| [certificate-viewer-open](https://github.com/JuanTorchia/certificate-viewer-open) | Certificate and Java keystore inspection for IntelliJ Platform IDEs. | ![downloads](https://img.shields.io/jetbrains/plugin/d/30727?style=flat-square&logo=jetbrains&label=downloads) ![version](https://img.shields.io/jetbrains/plugin/v/30727?style=flat-square&logo=jetbrains&label=version) |
+| [certificate-viewer-open-vscode](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | X.509, CSR, CRL, key, and keystore inspection inside VS Code. | VS Code Marketplace: version + installs tracked above |
+| [gmm-haproxy-vscode](https://github.com/JuanTorchia/gmm-haproxy-vscode) | HAProxy language tooling for validation, completion, hover docs, snippets, and formatting. | VS Code Marketplace: version + installs tracked above |
+| [certificate-viewer-open](https://github.com/JuanTorchia/certificate-viewer-open) | Certificate and Java keystore inspection for IntelliJ Platform IDEs. | JetBrains Marketplace: downloads + version tracked above |
 | [greengate](https://github.com/JuanTorchia/greengate) | Human-approved AI agents with Auth0 CIBA and Gemini. | agent approval workflows |
 | [pq-signing-demo](https://github.com/JuanTorchia/pq-signing-demo) | Post-quantum and hybrid signing experiments. | crypto-agility lab |
 
