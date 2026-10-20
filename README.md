@@ -33,7 +33,7 @@ I build production-shaped tools and publish the evidence: marketplace plugins, r
 | Signal | Evidence |
 |---|---|
 | Shipped tooling | VS Code and JetBrains plugins for certificate inspection and HAProxy configuration |
-| Public traction | Live marketplace stats from JetBrains Marketplace and VS Code Marketplace badge services |
+| Public traction | Live download stats from JetBrains Marketplace, VS Code Marketplace, and Open VSX |
 | Security depth | PKI, X.509, digital signatures, post-quantum signing, Auth0 approval flows |
 | Architecture depth | Java/Spring modernization, PostgreSQL-backed benchmarks, observability labs |
 | AI engineering | Agent approval flows, coding-agent harnesses, editorial pipelines, validation loops |
@@ -48,9 +48,9 @@ I ship editor tooling that people can install from real marketplaces, not only c
 
 | Product | What it does | Live signal |
 |---|---|---|
-| [X.509 Certificate Viewer for IntelliJ](https://plugins.jetbrains.com/plugin/30727-x-509-certificate-viewer) | Inspect X.509 certificates and Java keystores inside IntelliJ-based IDEs. | ![IntelliJ version](https://img.shields.io/jetbrains/plugin/v/30727?style=flat-square&logo=jetbrains&label=version) ![IntelliJ downloads](https://img.shields.io/jetbrains/plugin/d/30727?style=flat-square&logo=jetbrains&label=downloads) |
-| [CertView for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.certview) | Inspect certificates, CSRs, CRLs, keys, chains, and keystores offline in VS Code. | ![CertView version](https://vsmarketplacebadges.dev/version-short/gmm.certview.svg?subject=version&style=flat-square&color=0078d4) ![CertView installs](https://vsmarketplacebadges.dev/installs-short/gmm.certview.svg?subject=installs&style=flat-square&color=0078d4) |
-| [HAProxy Config for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode) | HAProxy syntax, completions, hover docs, snippets, formatting, and version-aware validation. | ![HAProxy version](https://vsmarketplacebadges.dev/version-short/gmm.gmm-haproxy-vscode.svg?subject=version&style=flat-square&color=0078d4) ![HAProxy installs](https://vsmarketplacebadges.dev/installs-short/gmm.gmm-haproxy-vscode.svg?subject=installs&style=flat-square&color=0078d4) |
+| [CertView X.509 for JetBrains IDEs](https://plugins.jetbrains.com/plugin/30727-certview-x-509) | Inspect X.509 certificates and Java keystores inside IntelliJ-based IDEs. | ![IntelliJ version](https://img.shields.io/jetbrains/plugin/v/30727?style=flat-square&logo=jetbrains&label=version) ![IntelliJ downloads](https://img.shields.io/jetbrains/plugin/d/30727?style=flat-square&logo=jetbrains&label=downloads) |
+| [CertView for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.certview) | Inspect certificates, CSRs, CRLs, keys, chains, and keystores offline in VS Code. | ![CertView version](https://vsmarketplacebadges.dev/version-short/gmm.certview.svg?subject=version&style=flat-square&color=0078d4) ![CertView installs](https://vsmarketplacebadges.dev/installs-short/gmm.certview.svg?subject=installs&style=flat-square&color=0078d4) [![CertView Open VSX downloads](https://img.shields.io/open-vsx/dt/gmm/certview?style=flat-square&label=open%20vsx)](https://open-vsx.org/extension/gmm/certview) |
+| [HAProxy Config for VS Code](https://marketplace.visualstudio.com/items?itemName=gmm.gmm-haproxy-vscode) | HAProxy syntax, completions, hover docs, snippets, formatting, and version-aware validation. | ![HAProxy version](https://vsmarketplacebadges.dev/version-short/gmm.gmm-haproxy-vscode.svg?subject=version&style=flat-square&color=0078d4) ![HAProxy installs](https://vsmarketplacebadges.dev/installs-short/gmm.gmm-haproxy-vscode.svg?subject=installs&style=flat-square&color=0078d4) [![HAProxy Open VSX downloads](https://img.shields.io/open-vsx/dt/gmm/gmm-haproxy-vscode?style=flat-square&label=open%20vsx)](https://open-vsx.org/extension/gmm/gmm-haproxy-vscode) |
 | [HAProxy Language Support for JetBrains IDEs](https://plugins.jetbrains.com/plugin/35273-haproxy-language-support) | The same HAProxy language server in IntelliJ IDEA, PyCharm, and other JetBrains IDEs: version-aware validation, completions, hover docs, and backend navigation. | ![HAProxy JetBrains version](https://img.shields.io/jetbrains/plugin/v/35273?style=flat-square&logo=jetbrains&label=version) ![HAProxy JetBrains downloads](https://img.shields.io/jetbrains/plugin/d/35273?style=flat-square&logo=jetbrains&label=downloads) |
 
 ---
@@ -59,7 +59,7 @@ I ship editor tooling that people can install from real marketplaces, not only c
 
 | Problem I care about | Public work | Evidence |
 |---|---|---|
-| Make certificate-heavy workflows less painful inside IDEs | [CertView for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode), [X.509 Certificate Viewer for IntelliJ](https://github.com/JuanTorchia/certificate-viewer-open) | Marketplace plugins, offline inspection, keystore support, real download signal |
+| Make certificate-heavy workflows less painful inside IDEs | [CertView for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode), [CertView X.509 for JetBrains](https://github.com/JuanTorchia/certificate-viewer-open) | Marketplace plugins, offline inspection, keystore support, real download signal |
 | Treat infrastructure config like code, not paste-in-terminal folklore | [HAProxy Config for VS Code](https://github.com/JuanTorchia/gmm-haproxy-vscode), [HAProxy Language Support for JetBrains](https://github.com/JuanTorchia/gmm-haproxy-jetbrains) | Syntax, completions, hover docs, snippets, formatting, validation |
 | Keep AI agents useful without removing human control | [GreenGate](https://github.com/JuanTorchia/greengate) | Auth0 CIBA approval flow, Gemini, audit-oriented agent actions |
 | Prepare signature systems for crypto-agility | [Post-Quantum Signing](https://github.com/JuanTorchia/pq-signing-demo) | ML-DSA, SLH-DSA, ECDSA, hybrid signing, software-HSM style prototype |
@@ -163,9 +163,9 @@ not_just_keywords:
 
 | Tool | What it does | Signal |
 |---|---|---|
-| [CertView for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | Opens X.509 certificates, chains, CSRs, CRLs, public/private keys, PKCS#7 bundles, and PKCS#12 keystores directly in VS Code. | Published on the VS Code Marketplace as `gmm.certview`; works offline and focuses on PKI inspection without terminal glue. |
-| [Certificate Viewer for IntelliJ](https://github.com/JuanTorchia/certificate-viewer-open) | Adds certificate and Java keystore inspection inside JetBrains IDEs. | Kotlin + IntelliJ Platform plugin for certificate-heavy Java workflows. |
-| [HAProxy Config for VS Code](https://github.com/JuanTorchia/gmm-haproxy-vscode) | Adds HAProxy syntax highlighting, version-aware validation, completions, hover docs, snippets, formatting, and go-to-definition. | Published on the VS Code Marketplace as `gmm.gmm-haproxy-vscode`; built for real infra config editing. |
+| [CertView for VS Code](https://github.com/JuanTorchia/certificate-viewer-open-vscode) | Opens X.509 certificates, chains, CSRs, CRLs, public/private keys, PKCS#7 bundles, and PKCS#12 keystores directly in VS Code. | Published on the VS Code Marketplace as `gmm.certview` and on Open VSX for Cursor and VSCodium; works offline and focuses on PKI inspection without terminal glue. |
+| [CertView X.509 for JetBrains](https://github.com/JuanTorchia/certificate-viewer-open) | Adds certificate and Java keystore inspection inside JetBrains IDEs. | Published on the JetBrains Marketplace as CertView X.509, the most downloaded GMM plugin. |
+| [HAProxy Config for VS Code](https://github.com/JuanTorchia/gmm-haproxy-vscode) | Adds HAProxy syntax highlighting, version-aware validation, completions, hover docs, snippets, formatting, and go-to-definition. | Published on the VS Code Marketplace as `gmm.gmm-haproxy-vscode` and on Open VSX for Cursor and VSCodium; built for real infra config editing. |
 | [HAProxy Language Support for JetBrains](https://github.com/JuanTorchia/gmm-haproxy-jetbrains) | Brings HAProxy highlighting, version-aware validation, completions, hover docs, go-to-definition, and backend rename to JetBrains IDEs. | Published on the JetBrains Marketplace; runs the same language server as the VS Code extension, pinned by version and SHA-256. |
 
 ---
